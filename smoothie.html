@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smoothie Bowl Bliss</title>
+  <link rel="stylesheet" href="smoothie.css" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🍓 Smoothie Bliss</h1>
+  </header>
+  
+  <header class="main-header">
+    <nav class="nav-links">
+      <a href="smoothie.html" class="active">Home</a>
+      <a href="smoo.html">Smoothies</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="icons">
+      <a href="cart.html" class="icon-link">
+        <img src="carts.png" alt="Cart" class="icon" />
+      </a>
+      <a href="profile.html" class="icon-link">
+        <img src="man.png" alt="Profile" class="icon" />
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h4>SUMMER SEASON</h4>
+      <h1>Smoothies that <span>Everyone loves!</span></h1>
+      <p>Huge range of organic smoothies for customers</p>
+      <button class="cta-btn" onclick="document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });">Start Ordering</button>
+  
+    </div>
+    <div class="hero-img">
+      <img src="Tropical_Fruit___Yogurt_Bowl_____Vibrant_Breakfast_Inspiration-removebg-preview.png" alt="Main Smoothie">
+    </div>
+  </section>
+
+  <!-- Smoothie Menu Section (will scroll here) -->
+  <section class="menu" id="menu">
+    <!-- You can populate with smoothie cards here -->
+  </section>
+
+  <script src="smoothie.js"></script>
+</body>
+</html>
